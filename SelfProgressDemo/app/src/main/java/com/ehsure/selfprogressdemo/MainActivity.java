@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         errorValue = screenWidth-convertPx(marginSize)*2 - averageWidth*totalProgress;
     }
 
+    // 绑定按钮方法
     public void click(View view) {
         try{
             beginProgress = 0;
